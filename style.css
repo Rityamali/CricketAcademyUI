@@ -36,6 +36,9 @@ html,body{
     color: white;
     padding: 5px;
 }
+#nav h4:hover{
+    color : black;
+}
 #cursor{
     height: 16px;
     width: 16px;
