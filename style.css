@@ -231,6 +231,16 @@ video{
     transition: all ease 0.4s;
 }
 
+.card h2{
+    margin-top: 30px;
+    margin-left: 5px;
+    font-size: 30px;
+    -webkit-text-stroke: 0.3px #FFC300;
+    /* background-color: #fff; */
+    position: absolute;
+    font : gilroy;
+}
+
 #card1{
     background-image: url("https://images.unsplash.com/photo-1635127725453-5f6ad32cbf92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNyaWNrZXR8ZW58MHwxfDB8fHww&auto=format&fit=crop&w=600&q=60");
 }
@@ -250,6 +260,11 @@ video{
     text-align: center;
     opacity: 0;
     transition: all ease 0.4s;
+}
+
+.card:hover h2{
+    color: transparent;
+    -webkit-text-stroke: 0px;
 }
 
 .overlay h4{
@@ -363,6 +378,7 @@ video{
     overflow: hidden;
     border-radius: 20px;
     position: relative;
+    z-index: 10;
 }
 
 .elem img{
