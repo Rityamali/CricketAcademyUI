@@ -235,7 +235,7 @@ video{
     margin-top: 30px;
     margin-left: 5px;
     font-size: 30px;
-    -webkit-text-stroke: 0.1px #FFC300;
+/*     -webkit-text-stroke: 0.1px #FFC300; */
     /* background-color: #fff; */
     position: absolute;
     font : gilroy;
